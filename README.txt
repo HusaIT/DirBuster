@@ -26,6 +26,9 @@ Usage
     Run the script via "Run with PowerShell" or from the PowerShell command line.
     Review deletion_log.txt for a log of the actions taken by the script.
 
+    **To get list paths to files & folders in the current directory**
+    Get-ChildItem | Select-Object FullName
+
 Features
 
     Robust Error Handling: The script can handle and log various errors during the deletion process.
